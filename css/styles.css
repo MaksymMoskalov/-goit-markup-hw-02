@@ -19,17 +19,23 @@
     display: none;
 }
 
-.main-titles {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.1;
-    color: var(--secondary-text-color);
-}
+
 .secondary-titles{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     color: var(--secondary-text-color);
+}
+.main-titles {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--secondary-text-color);
+
 }
 /* BODY */
 body {
@@ -73,6 +79,8 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-style: normal;
 }
 .address-link{
     color: var(--main-text-color);
@@ -103,13 +111,17 @@ body {
 .hero-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
     color: var(--main-background-color);
 }
 .hero-btn{
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.04em;
     color: var(--main-background-color);
     background-color: var(--acsent-color);
     cursor: pointer;
@@ -119,11 +131,18 @@ body {
     background-color: var(--active-color);
 }
 
-/* Team list section */
-.team{
-    background-color: var(--secondary-background-color);
+/* What we provide section */
+.provide-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
+
+/* Team list section */
+.team{
+    background-color: var(--main-background-color);
+}
 
 /* Portfolio page */
 .filter-btn{
