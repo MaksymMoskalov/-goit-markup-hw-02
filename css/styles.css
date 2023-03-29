@@ -75,6 +75,9 @@ body {
     color: var(--active-color);
 }
 
+.address{
+    font-style: normal;
+}
 .address-list{
     font-weight: 400;
     font-size: 16px;
@@ -141,9 +144,15 @@ body {
 
 /* Team list section */
 .team{
+    background-color: var(--secondary-background-color);
+}
+.team-list{
     background-color: var(--main-background-color);
 }
-
+.team-text{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 /* Portfolio page */
 .filter-btn{
     color: var(--acsent-color);
