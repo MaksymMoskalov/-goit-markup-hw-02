@@ -169,3 +169,10 @@ body {
     color: var(--main-background-color);
     background-color: var(--active-color);
 }
+
+.prducts-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+}
