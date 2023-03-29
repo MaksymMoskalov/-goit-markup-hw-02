@@ -7,11 +7,11 @@
     --secondary-background-color: #F4F4FD;
     --acsent-background-color: #2E2F42;
 }
-.list-style{
+.list{
     list-style-type: none;
 }
 
-.link-style {
+.link{
     text-decoration: none;
 }
 
@@ -33,17 +33,17 @@
 }
 /* BODY */
 body {
-    font-family: "Roboto";
+    font-family: "Roboto",sans-serif;
     color: var(--main-text-color);
     background-color: var(--main-background-color);
 }
 /* Header */
 .logo {
-  text-decoration: none;
   font-family: "Raleway";
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.1;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--acsent-color);
 }
